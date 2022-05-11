@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Gilroy Regular';
+    src: url('Gilroy-Regular.eot');
+    src: url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'), url('Gilroy-Regular.woff') format('woff'), url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Semibold';
+    src: url('Gilroy-SemiBold.eot');
+    src: url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'), url('Gilroy-SemiBold.woff') format('woff'), url('Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');

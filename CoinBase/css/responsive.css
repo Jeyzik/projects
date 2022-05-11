@@ -1,0 +1,389 @@
+@media (min-width: 1200px) {
+    .for-page .container {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .nav-menu,
+    .nav-menu-reg {
+        white-space: nowrap;
+    }
+    .curve {
+        transform: translateY(14%);
+    }
+    .uper-curve img {
+        margin-top: -171px;
+    }
+    .welcome-text p {
+        line-height: 30px;
+    }
+    .blog {
+        padding: 50px 0 194px 0;
+    }
+    .reviews-lower-curve img {
+        transform: translateY(90px);
+    }
+    .phone-present-line img {
+        margin-top: -168px;
+    }
+    .subscribe-form input {
+        width: 62%;
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding-bottom: 20px;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-menu-reg {
+        display: none;
+    }
+    .responsive-menu {
+        display: block;
+    }
+    .parent-responsive-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .responsive-menu i {
+        font-size: 30px;
+        color: hotpink;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .responsive-menu i:hover {
+        color: rgb(119, 20, 233);
+    }
+    .btn-between {
+        display: none;
+    }
+    .text-banner {
+        text-align: center;
+        padding-top: 100px;
+    }
+    .banner-img {
+        text-align: center;
+    }
+    .welocme-img {
+        text-align: center;
+    }
+    .welcome-text {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .line {
+        margin: 15px auto;
+    }
+    .uper-curve img {
+        margin-top: -130px;
+    }
+    .exchanges-line {
+        padding-bottom: 10px;
+    }
+    /* exchenge */
+    .name-operation {
+        display: none;
+    }
+    .our-container h5 {
+        display: block;
+        padding: 20px 0;
+    }
+    .transfer-h5 h5 {
+        display: block;
+        padding: 20px 0;
+    }
+    .latest-container h5 {
+        display: block;
+        padding: 20px 0;
+    }
+    .exchanges-line {
+        display: none;
+    }
+    .btn-time {
+        text-align: center;
+        transform: translateY(0px);
+        padding-left: 5px
+    }
+    .transfer-h5,
+    .latest-container {
+        padding-left: 50px;
+    }
+    .great-experience {
+        text-align: center;
+    }
+    .bitcoin-card {
+        margin: 0;
+    }
+    .gift-card {
+        margin: 0;
+    }
+    .curve-trade img {
+        margin-top: -175px;
+    }
+    .reviews-uper-curve img {
+        transform: translateY(-120px);
+    }
+    .active-card h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .blog-card-text {
+        line-height: 20px;
+    }
+    .deactive-card h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .boole-reviews img:nth-child(2) {
+        margin-top: -262px;
+        margin-left: 264px;
+        opacity: 0.8;
+    }
+    .subscribe-main-text h3 {
+        font-size: 26px;
+        line-height: 58px;
+    }
+    .subscribe-main-text p {
+        font-size: 15px;
+        line-height: 40px;
+        ;
+    }
+    .subscribe-form input {
+        width: 100%;
+    }
+    .subscribe-btn {
+        margin-top: 20px;
+    }
+    .subscribe-pre-btn {
+        padding-left: 90px;
+    }
+    .foto-block {
+        width: 21%;
+        padding: 25px 0;
+    }
+    .exchanges-line-responsive {
+        display: block;
+    }
+    .contact-us a,
+    p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-banner {
+        padding-top: 70px;
+    }
+    .text-banner h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .welcome-coin {
+        padding-top: 30px;
+    }
+    .uper-curve img {
+        margin-top: -102px;
+    }
+    .gift-card p {
+        padding: 9px;
+        padding-bottom: 37px;
+    }
+    .bitcoin-card p {
+        padding: 3px;
+        padding-bottom: 27px;
+    }
+    .curve-trade img {
+        margin-top: -144px;
+    }
+    .trade-bg {
+        padding: 71px 0 15px;
+    }
+    .data-blog {
+        font-size: 8px;
+        line-height: 8px;
+    }
+    .active-card h4 {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .blog-card-text {
+        line-height: 14px;
+    }
+    .reviews-uper-curve img {
+        transform: translateY(-88px);
+    }
+    .reviews-main-text p {
+        font-size: 14px;
+        line-height: 33px;
+        padding-top: 10px;
+    }
+    .boole-reviews img:nth-child(2) {
+        display: none;
+    }
+    .reviews-lower-curve img {
+        transform: translateY(50px);
+    }
+    .phone-present-line img {
+        margin-top: -104px;
+    }
+    .phone-down {
+        transform: translateY(0);
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .phone-logo a img {
+        float: none;
+        padding: 20px 0;
+    }
+    .phone-slider {
+        padding-bottom: 30px;
+    }
+    .new-subscribe {
+        padding-top: 80px;
+    }
+    .subscribe-pre-btn {
+        padding-left: 50px;
+    }
+    .subscribe-main-text p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .subscribe-main-text h3 {
+        font-size: 25px;
+        line-height: 52px;
+    }
+    .context-style {
+        display: contents;
+    }
+    .logo-info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 580px) {
+    .welcome-text p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .welcome-coin {
+        padding-top: 10px;
+    }
+    .uper-curve img {
+        margin-top: -77px;
+    }
+    .about-text p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        line-height: 27px;
+        color: #333333;
+    }
+    .about-text h4 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .text-banner h1 {
+        font-size: 27px;
+        line-height: 44px;
+    }
+    .text-banner p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .trade-text-main {
+        font-size: 24px;
+        line-height: 37px;
+    }
+    .bitcoin-card,
+    .gift-card {
+        margin: 0 130px 0 130px;
+    }
+    .curve-trade img {
+        margin-top: -122px;
+    }
+    .blog {
+        padding: 35px 0 194px 0;
+    }
+    .active-card {
+        transform: scale(1);
+    }
+    .reviews-uper-curve img {
+        transform: translateY(-55px);
+    }
+    .phone-logo a img {
+        display: block;
+        margin: 0 auto;
+    }
+    .phone-slider a img {
+        display: block;
+        margin: 0 auto;
+    }
+    .subscribe-pre-btn {
+        padding-left: 185px;
+    }
+    .context-style .row {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .instagram-block h4 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .uper-curve img {
+        margin-top: -64px;
+    }
+    .curve-trade img {
+        margin-top: -109px;
+    }
+    .trade-bg {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .reviews-uper-curve img {
+        transform: translateY(-37px);
+    }
+    .reviews-lower-curve img {
+        transform: translateY(30px);
+    }
+    .phone-present-line img {
+        margin-top: -68px;
+    }
+    .subscribe-pre-btn {
+        padding-left: 160px;
+    }
+}
+
+@media (max-width: 400px) {
+    .uper-curve img {
+        margin-top: -47px;
+    }
+    .curve-trade img {
+        margin-top: -104px;
+    }
+    .reviews-main-text p {
+        padding-bottom: 50px;
+    }
+    .reviews-lower-curve img {
+        transform: translateY(20px);
+    }
+    .download-main-text h3 {
+        padding-top: 10px;
+    }
+    .phone-present-line img {
+        margin-top: -55px;
+    }
+    .subscribe-pre-btn {
+        padding-left: 125px;
+    }
+}

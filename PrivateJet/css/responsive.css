@@ -1,0 +1,253 @@
+@media (min-width: 1440px) {
+    .for-page .container {
+        max-width: 1240px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .reg-menu {
+        padding-left: 10px;
+    }
+    .parametrs {
+        display: block;
+    }
+    .from-to-fly,
+    .where-to-fly {
+        display: inline-block;
+        margin-bottom: 25px;
+        width: 400px;
+    }
+    .date-to-fly {
+        width: 400px;
+        margin-left: 14px;
+    }
+    .swap-container {
+        transform: translateY(-30px);
+    }
+    .private-jet-text {
+        padding-top: 50px;
+    }
+    .buisnes-jet-text {
+        padding-top: 35px;
+    }
+    .popular-btn a,
+    .business-btn a,
+    .elite-btn a {
+        padding: 15px 85px;
+    }
+    .footer-create p {
+        font-size: 13px;
+    }
+    .date-to-fly input {
+        width: 75%;
+    }
+}
+
+@media (max-width: 991px) {
+    .responsive-menu {
+        display: block;
+    }
+    .nav-menu,
+    .reg-menu {
+        display: none;
+    }
+    .parent-responsive-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-main-text {
+        padding: 145px 0 275px 0;
+        text-align: center;
+    }
+    .banner-main-text h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .flights {
+        transform: translateY(-200px);
+    }
+    .options ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .swap-container {
+        width: 4%;
+        display: block;
+        transform: translateY(-15px);
+    }
+    .parametrs {
+        display: flex;
+        flex-direction: column;
+    }
+    .date-to-fly {
+        margin-left: 0;
+    }
+    .about::before {
+        top: 224px;
+        height: 375px;
+    }
+    .private-jet-text p,
+    .buisnes-jet-text p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .private-jet-text h4,
+    .buisnes-jet-text h4 {
+        font-size: 23px;
+        line-height: 30px;
+        padding-bottom: 4px;
+    }
+    .private-jet-text {
+        padding-top: 15px;
+    }
+    .buisnes-jet-text {
+        padding-top: 20px;
+    }
+    .about::after {
+        height: 375px;
+    }
+    .luxury-card,
+    .personal-card,
+    .security-card,
+    .crew-card {
+        padding: 8px 8px;
+    }
+    .luxury-card h5,
+    .personal-card h5,
+    .security-card h5,
+    .crew-card h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .luxury-card p,
+    .personal-card p,
+    .security-card p,
+    .crew-card p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .popular-btn a,
+    .business-btn a,
+    .elite-btn a {
+        padding: 15px 75px;
+    }
+    .responsive-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .popular-card,
+    .business-card,
+    .elite-card {
+        width: 400px;
+        margin-bottom: 60px;
+        transform: translateX(-85px);
+    }
+    .popular-card:hover {
+        transform: translate(-85px, -45px);
+    }
+    .business-card:hover {
+        transform: translate(-85px, -45px);
+    }
+    .elite-card:hover {
+        transform: translate(-85px, -45px);
+    }
+}
+
+@media (max-width: 767px) {
+    .swap-container {
+        width: 6%;
+    }
+    .responsive-about {
+        flex-direction: column;
+    }
+    .private-jet {
+        padding-bottom: 10px;
+    }
+    .responsive-about-two {
+        flex-direction: column-reverse;
+    }
+    .private-jet-text {
+        padding-bottom: 50px;
+    }
+    .about::before {
+        top: 250px;
+        height: 400px;
+    }
+    .about::after {
+        height: 400px;
+        bottom: 300px;
+    }
+    .lux-per-card,
+    .safe-crew-card {
+        display: flex;
+        justify-content: space-between;
+    }
+    .luxury-card,
+    .personal-card,
+    .security-card,
+    .crew-card {
+        width: 240px;
+        height: 200px;
+    }
+    .plane img {
+        padding: 30px 0;
+    }
+    .popular-card,
+    .business-card,
+    .elite-card {
+        width: 400px;
+        margin-bottom: 60px;
+        transform: none;
+        display: block;
+        margin: 30px auto;
+    }
+    .business-card:hover,
+    .popular-card:hover,
+    .elite-card:hover {
+        transform: translate(0px, -45px);
+    }
+}
+
+@media (max-width: 540px) {
+    .footer-create {
+        justify-content: center;
+    }
+    .footer-sub-menu {
+        justify-content: space-between;
+    }
+    .luxury-card,
+    .personal-card,
+    .security-card,
+    .crew-card {
+        width: 215px;
+        height: 200px;
+    }
+    .private-jet-text {
+        padding-top: 55px;
+    }
+}
+
+@media (max-width: 400px) {
+    .from-to-fly,
+    .where-to-fly {
+        width: 330px;
+    }
+    .date-to-fly {
+        width: 330px;
+        margin-left: 14px;
+    }
+    .date-to-fly {
+        display: flex;
+        flex-direction: column;
+    }
+    .luxury-card,
+    .personal-card,
+    .security-card,
+    .crew-card {
+        width: 180px;
+        height: 220px;
+    }
+    .membership-title {
+        padding-bottom: 50px;
+    }
+}
