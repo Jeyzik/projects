@@ -11,12 +11,23 @@
 }
 
 @media(max-width: 991px) {
+    .order-1{
+        position: fixed;
+        top: 20px;
+    }
     .header {
         background: url(../img/banner.png);
         text-align: center;
     }
     .responsive-banner-img {
         display: block;
+    }
+    .sub-menu {
+        display: flex;
+        margin: 0 auto;
+        white-space: nowrap;
+        flex-direction: column;
+        align-items: flex-end;
     }
     .banner-btn {
         padding-bottom: 150px;
@@ -86,6 +97,7 @@
     .nav-footer-menu {
         justify-content: normal;
     }
+
 }
 
 @media(max-width: 767px) {

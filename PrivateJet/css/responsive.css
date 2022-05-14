@@ -44,6 +44,17 @@
 }
 
 @media (max-width: 991px) {
+    /* burger */
+    .sub-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .reg-sub-menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+    /* burger */
     .responsive-menu {
         display: block;
     }

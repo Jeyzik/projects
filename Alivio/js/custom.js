@@ -5,6 +5,7 @@ jQuery(document).ready(function() {
 
     jQuery(".fancybox").fancybox();
 
+
 });
 
 function r(f) { /in/.test(document.readyState) ? setTimeout('r(' + f + ')', 9) : f() }
@@ -47,6 +48,24 @@ r(function() {
     }
 });
 
-$('#myModal').on('shown.bs.modal', function() {
-    $('#myInput').focus()
+jQuery('#myModal').on('shown.bs.modal', function() {
+    jQuery('#myInput').focus()
 })
+
+
+
+  jQuery(document).ready(function(){
+      jQuery('.btn-menu').click(function(){
+          jQuery(this).toggleClass('active');
+          jQuery('.nav-menu').slideToggle(300, function(){
+              if(jQuery(this).css('display') === 'none'){
+                  jQuery(this).removeAttr('style');
+              }
+          });
+            jQuery('.reg-menu').slideToggle(300, function(){
+                if(jQuery(this).css('display') === 'none'){
+                    jQuery(this).removeAttr('style');
+                }
+            });
+      })
+  })

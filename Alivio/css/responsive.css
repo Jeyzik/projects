@@ -155,6 +155,16 @@
 }
 
 @media (max-width: 991px) {
+    .sub-menu {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+    .btn-menu{
+        outline: none;
+        border: none;
+        background: none;
+    }
     .responsive-menu {
         display: block;
     }
@@ -245,6 +255,22 @@
     .footer-menu ul.footer-sub-menu li a {
         padding-right: 103px;
         white-space: nowrap;
+    }
+    .nav-menu ul.sub-menu li a {
+        font-size: 16px;
+    }
+    .reg-menu ul.sub-reg-menu li a {
+        font-size: 16px;
+    }
+    .button-start {
+        padding: 3px 30px;
+        font-size: 19px;
+    }
+    .sub-reg-menu {
+        justify-content: center;
+    }
+    .nav-menu {
+        padding-left: 0;
     }
 }
 

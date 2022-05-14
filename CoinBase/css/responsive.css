@@ -33,6 +33,10 @@
 }
 
 @media (max-width: 991px) {
+    .sub-menu-reg {
+        display: flex;
+        justify-content: center;
+    }
     .header {
         padding-bottom: 20px;
     }
@@ -266,6 +270,14 @@
 }
 
 @media (max-width: 580px) {
+    .sub-menu-reg {
+        justify-content: flex-end;
+    }
+    .sub-menu .item-menu {
+        padding-left: 56px;
+        padding-top: 7px;
+        list-style: none;
+    }
     .welcome-text p {
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
@@ -338,6 +350,11 @@
 }
 
 @media (max-width: 500px) {
+    .sub-menu .item-menu {
+        padding-left: 56px;
+        padding-top: 7px;
+        list-style: none;
+    }
     .uper-curve img {
         margin-top: -64px;
     }

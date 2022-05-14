@@ -15,7 +15,10 @@ body {
 
 
 /* btn-between */
-
+.btn-humburger{
+    border: none;
+    background: none;
+}
 .btn-between a {
     display: block;
 }
