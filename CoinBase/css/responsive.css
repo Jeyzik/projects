@@ -270,6 +270,19 @@
 }
 
 @media (max-width: 580px) {
+    .exchanges {
+        background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+        margin-top: -100px;
+        padding: 0 10px;
+    }
+    .uper-curve img {
+        margin-top: -80px;
+        transform: translateX(-12px);
+    }
+    .lower-curve {
+        transform: translateY(129px);
+        margin: 10px;
+    }
     .sub-menu-reg {
         justify-content: flex-end;
     }
@@ -346,6 +359,21 @@
     }
     .instagram-block h4 {
         text-align: center;
+    }
+    .trade-anywhere > div.container > div{
+        padding: 0 10px;
+    }
+    .curve-trade img {
+        margin-top: -54px;
+    }
+    .deactive-card{
+        margin: 0 25px;
+    }
+    .active-card{
+        margin: 0 10px;
+    }
+    .logo-info p {
+        padding: 0 60px;
     }
 }
 

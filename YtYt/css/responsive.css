@@ -41,9 +41,15 @@
     }
     .nav-menu {
         display: none;
+        background: #38BFF2;
+        border-radius: 10px;
     }
     .sub-reg-menu>li:nth-child(1) {
         display: none;
+    }
+    .sub-menu{
+        display: flex;
+        align-items: center;
     }
     .parent-responsive-menu {
         display: flex;
@@ -53,7 +59,7 @@
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        transform: translateY(-25px);
+        transform: translateY(-45px );
         margin: -15px;
         z-index: -1;
     }
@@ -97,7 +103,21 @@
     .nav-footer-menu {
         justify-content: normal;
     }
-
+    .sub-footer-menu li {
+        padding-bottom: 10px;
+    }
+    .tel-email-info {
+        padding-bottom: 15px;
+    }
+    .banner-btn a {
+        padding: 18px 30px;
+    }
+    .btn-video a {
+        padding: 18px 36px;
+    }
+    .ads-btn a {
+        padding: 16px 26px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -115,8 +135,83 @@
         max-height: 240px;
         padding: 30px 35px 31px 35px;
     }
+    .lap-top-border {
+        padding-left: 0;
+    }
+    .lap-top-border {
+        background: none;
+    }
+    .youtube {
+        height: 325px;
+    }
+    .video iframe {
+        width: 583px;
+        height: 325px;
+        border: none;
+        display: block;
+        border-radius: 17px;
+        margin: 0 auto;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .video{
+        padding: 0 10px;
+    }
 }
 
-@media(max-width: 576px) {}
+@media(max-width: 529px) {
+    .what-learn span {
+        line-height: 54px;
+        padding: 13px 30px;
+    }
+    .youtube {
+        width: 464px;
+        height: 258px;
+    }
+    .video iframe {
+        width: 464px;
+        height: 258px;
+    }
+}
 
-@media(max-width: 400px) {}
+@media(max-width: 400px) {
+    .banner-text h1 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 46px;
+        color: #22253B;
+        padding-bottom: 30px;
+    }
+    .language {
+        padding-bottom: 36px;
+        display: flex;
+        flex-direction: column;
+    }
+    .what-learn span {
+        line-height: 20px;
+        padding: 13px 10px;
+        margin-bottom: 5px;
+    }
+    .educ-title h2 {
+        font-size: 35px;
+        line-height: 41px;
+    }
+    .video-title h2 {
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .youtube {
+        width: 292px;
+        height: 162px;
+    }
+    .start-test {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-video {
+        padding-right: 0;
+        white-space: nowrap;
+        padding-bottom: 40px;
+    }
+}

@@ -39,6 +39,8 @@ r(function() {
         }
     }
 });
+// humburger menu
+
 
 jQuery(document).ready(function(){
     jQuery('.humburger').click(function(){
@@ -50,3 +52,22 @@ jQuery(document).ready(function(){
         });
     })
 })
+
+
+
+
+
+// modal window
+jQuery(document).ready(function(jQuery) {
+	jQuery('.startTest').click(function() {
+		jQuery('.modalWindow').fadeIn();
+		return false;
+	});	
+
+	
+	jQuery('.modalWindow').click(function(e) {
+		if (jQuery(e.target).closest('.popup').length == 0) {
+			jQuery(this).fadeOut();					
+		}
+	});
+});

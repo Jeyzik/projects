@@ -1,0 +1,290 @@
+@media (min-width: 1200px) {
+    .for-page .container {
+        max-width: 1140px;
+    }
+}
+@media (max-width: 1199px) {
+    .sing-up{
+        padding-left: 0;
+    }
+    .map  iframe{
+        width: 630px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .banner{
+        margin-left: 10px;
+        margin-right: 10px;
+        background-position: top center;
+    }
+}
+
+@media (max-width: 991px) {
+    .humburgerMenu{
+        display: block;
+    }
+    .responsiveMenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-menu,
+    .sing-up{
+        display: none;
+    }
+    .humburgerMenu{
+        border: none;
+        background: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 24px;
+        transition: 0.5s;
+    }
+    .humburgerMenu:hover{
+        text-decoration: none;
+        border: none;
+        color: rgb(168, 167, 168);
+    }
+    .humburgerMenu:focus{
+        outline: none;
+    }
+    .standart-servise p,
+    .group-servise p{
+        top: 72%;
+    }
+    .pregant-servise p {
+        top: 46%;
+    }
+    .underwater-servise br{
+        display: none;
+    }
+    .card-style p {
+        font-size: 16px;
+    }
+    .underwater-servise p, .underwater-photo-servise p {
+        top: 47%;
+        left: 15%;
+    }
+    .galery {
+    padding-top: 100px;
+    }
+    .feedback {
+        padding: 50px 0;
+    }
+    .about {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .about-space{
+        text-align: center;
+    }
+    .responsiveOrder{
+        order: -1;
+    }
+    .responsiveOrder{
+        order: 1;
+    }
+    .about-text, .about-img {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .about-title {
+        padding-bottom: 40px;
+    }
+    .price-title {
+        padding-bottom: 50px;
+    }
+    .services-center{
+        order: 4;
+    }
+    .sertificate{
+        text-align: center;
+    }
+    .services-price{
+        margin: 0 auto;
+    }
+    .responsiveCenter{
+        text-align: center;
+    }
+    .responsiveCard{
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .map iframe {
+        width: 690px;
+    }
+    .about-text h3{
+        text-align: center;
+    }
+    /* menu expand*/
+    .sub-menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .header > div > div > div.col-xl-3.col-lg-3.col-md-12.col-sm-12{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+@media (max-width: 767px) {
+    .banner-title h1 {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .galery-title h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .standart-servise{
+        display: none;
+    }
+    .group-servise, 
+    .pregant-servise {
+        max-width: 240px;
+    }
+    .underwater-servise, 
+    .underwater-photo-servise {
+        max-width: 240px;
+    }
+    .galleryFlex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .pregant-servise p {
+        top: 75%;
+    }
+    .feedback {
+        padding: 50px 10px;
+    }
+    .about-text, .about-img {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .price-title h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .about-title h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .map iframe {
+        width: 500px;
+        height: 400px;
+    }
+    .responsiveCard {
+        display: inline;
+    }
+    .card-section{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 540px) {
+    .group-servise, .pregant-servise {
+        max-width: 210px;
+    }
+    .underwater-servise, .underwater-photo-servise {
+        max-width: 210px;
+    }
+    .pregant-servise p {
+        top: 49%;
+    }
+    .about {
+        padding-top: 10px;
+        padding-bottom: 70px;
+    }
+    .about-text, .about-img {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+    .price-title {
+        padding-bottom: 20px;
+    }
+    .price-title h2 {
+        font-size: 26px;
+    }
+    .map {
+        padding-top: 60px;
+        padding-bottom: 45px;
+    }
+    .map iframe {
+        width: 450px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 350px) {
+    .map iframe {
+        width: 290px;
+        height: 300px;
+    }
+    .text-banner p {
+        padding: 0px 16px;
+        font-size: 18px;
+        line-height: 5px;
+    }
+    body > main > div > section.banner > div > div > div:nth-child(2) > div > h1 > br{
+        display: none;
+    }
+    .banner-title h1 {
+        font-size: 26px;
+        line-height: 25px;
+    }
+    .header {
+        padding: 15px 0 15px 0;
+    }
+    .galery {
+        padding-top: 50px;
+    }
+    .galery-title h2 {
+        font-size: 23px;
+        line-height: 59px;
+        padding: 0px 25px;
+    }
+    .group-servise, .pregant-servise {
+        max-width: 130px;
+    }
+    .underwater-servise, .underwater-photo-servise {
+        max-width: 130px;
+    }
+    .card-style p {
+        font-size: 10px;
+    }
+    .card-style p {
+        line-height: 20px;
+    }
+    .title-set h2{
+        padding: 0 20px;
+        font-family: 'El Messiri', sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 59px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .about-title h2 {
+        font-size: 24px;
+        line-height: 16px;
+    }
+    .about-text, .about-img {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .price-title h2 {
+        padding: 0 28px;
+    }
+    .price-title h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .services p {
+        font-size: 14px;
+        line-height: 5px;
+    }
+}

@@ -9,8 +9,8 @@ jQuery(document).ready(function() {
     let carousel = jQuery('#carousel-partners');
 
     carousel.owlCarousel({
-        items: 4,
-        autoplay: true,
+        items: 3,
+        autoplay: false,
         autoplayTimeout: 6000,
         autoplayHoverPause: false,
         smartSpeed: 1000,
@@ -30,32 +30,32 @@ jQuery(document).ready(function() {
                 dots: true,
                 nav: false,
                 mouseDrag: true,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 1000,
             },
             479: {
                 items: 1,
                 dots: true,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 1000,
                 mouseDrag: true,
             },
             767: {
                 items: 2,
                 dots: true,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 1000,
                 mouseDrag: true,
             },
             991: {
                 items: 3,
                 dots: true,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 1000,
                 mouseDrag: true,
             },
             1099: {
-                items: 4,
+                items: 3,
                 dots: true,
                 mouseDrag: true,
             }

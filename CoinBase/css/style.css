@@ -53,6 +53,7 @@ body {
     padding: 5px 20px 5px 11px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    transition: 0.3s;
 }
 
 .s-btc:hover {
@@ -155,7 +156,7 @@ body {
     border-radius: 100px;
     padding: 17px 56px;
     border: none;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .sub-menu-reg .item-menu .btn-login a:hover {
@@ -183,7 +184,7 @@ body {
 .curve {
     background: url('../img/low-line.svg');
     height: 250px;
-    transform: translateY(12%);
+    transform: translateY(15%);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -212,6 +213,7 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 21px;
+    transition: 0.3s;
 }
 
 .banner-text-grad {
@@ -702,7 +704,7 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    transform: translateY(35px);
+    transform: translateY(50px);
     margin-top: -200px;
     z-index: -1;
 }
@@ -834,8 +836,8 @@ body {
     border-radius: 100px;
     padding: 10px 23px;
     border: none;
-    transition: 0.5s;
     text-transform: uppercase;
+    transition: 0.3s;
 }
 
 .card-btn-deactive a:hover {
@@ -1017,9 +1019,9 @@ body {
     background: linear-gradient( 178.18deg, #FD749B -13.56%, #281AC8 158.3%);
     border-radius: 100px;
     padding: 17px 37px;
-    border: none;
-    transition: 0.5s;
+    border: 2px solid rgb(168, 26, 184);;
     text-transform: uppercase;
+    transition: 0.3s;
 }
 
 .subscribe-btn:hover {
@@ -1052,6 +1054,10 @@ body {
 
 .social-media a img {
     padding-right: 15px;
+    transition: transform 0.25s;
+}
+.social-media a img:hover{
+    transform: scale(1.5)
 }
 
 .logo-info p {

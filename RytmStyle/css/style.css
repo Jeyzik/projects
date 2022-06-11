@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('ProximaNova-Regular.eot');
+    src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/font/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+.for-page{
+    background-color: #162831;
+    font-family: 'Proxima Nova Regular'
+}
+.header{
+    padding: 30px 0 50px 0;
+}
+.sub-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.item-menu a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+.item-menu a:hover{
+    color: aqua;
+    text-decoration: none;
+}   
+.menu-center{
+    display: block;
+    margin: auto 0;
+}
+.sing-up{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.sing-up a{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #018ABE;
+    border-radius: 3px;
+    padding: 9px 15px;
+    transition: 0.3s all;
+}
+.sing-up a:hover{
+    text-decoration: none;
+    background: #162831;
+    border: 1px solid #018ABE;
+    color: #42acd6;
+}
+
+.banner{
+    background-image: url('/img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1300px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.text-banner{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 135px;
+    padding-bottom: 40px;
+}
+.text-banner p {
+    padding: 0 65px;
+    font-weight: 700;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.banner-title{
+    padding-bottom: 210px;
+}
+.banner-title h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'El Messiri', sans-serif;
+}
+.galery{
+    padding-top: 150px;
+}
+.galery-title{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.galery-title h2{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 45px;
+}
+.card-style p{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.group-servise,
+.standart-servise,
+.pregant-servise{
+    position: relative;
+    margin-bottom: 20px;
+}
+.standart-servise p,
+.group-servise p,
+.pregant-servise p {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+}
+.underwater-servise,
+.underwater-photo-servise{
+    position: relative;
+    margin-bottom: 20px;
+}
+.underwater-servise p,
+.underwater-photo-servise p{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+/* carousel */
+.feedback {
+    padding: 100px 0;
+  }
+  .title-set{
+    display: flex;
+    align-items: center;
+  }
+  .title-set h2{
+      padding: 0 20px;
+      font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .feedback .feedback-container {
+    column-gap: 50px;
+  }
+  
+  .feedback .feedback-container .card {
+    padding: 50px 60px 56px;
+    background: #018abe;
+    border-radius: 10px;
+  }
+  
+  .feedback .feedback-container .card :last-child {
+    margin-bottom: 0px;
+  }
+  
+  .feedback .feedback-container .card h4 {
+    font-family: "ProximaNovaBold";
+    margin-bottom: 20px;
+  }
+  
+  .feedback .feedback-container .card p {
+    font-size: 14px;
+    text-align: justify;
+    font-family: "ProximaNovaRegular";
+  }
+  
+  .feedback .feedback-container .card h4,
+  .feedback .feedback-container .card p {
+    line-height: 140%;
+    color: #ffffff;
+  }
+  .owl-item{
+      opacity: 0.5;
+  }
+  .center{
+    opacity: 1;
+  }
+
+/* carousel */
+.about {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.about-title{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.about-title h2{
+    font-family: 'El Messiri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 59px;
+    color: #FFFFFF;
+    padding: 0 45px;
+}
+.about-text h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.about-text p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.about-flex{
+    display: flex;
+    align-items: center;
+    padding-right: 80px;
+}
+.about-space{
+    padding-top: 100px;
+}
+
+.price-title{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.price-title h2{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 59px;
+    color: #FFFFFF;
+    padding: 0 45px;
+}
+.services {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.services p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.services p{
+    padding-left: 20px;
+}
+.money-price{
+    font-family: 'El Messiri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.services-center{
+    display: flex;
+    align-items: center;
+}
+.sertificate p{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+.map{
+    padding-top: 150px;
+    padding-bottom: 90px;
+}
+.card-title{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.about-card{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 21px;
+}
+.about-card p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.card-btn a{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #018ABE;
+    background: #fff;
+    padding: 9px 15px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.card-btn a:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #018ABE;
+    border: 1px solid #fff;
+}
+.card-rec{
+    background: #018ABE;
+    border-radius: 10px;
+    padding: 35px;
+    margin-bottom: 20px;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+/* responsive menu */
+.humburgerMenu{
+    display: none;
+}
